@@ -4,23 +4,35 @@ import pyautogui
 import time
 import mss
 import os
+import sys
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+
+        base_path = sys._MEIPASS
+    except Exception:
+
+        base_path = os.path.dirname(os.path.abspath(__file__))
+
+    return os.path.join(base_path, relative_path)
+
 
 try:
-    script_dir = os.path.dirname(__file__)
-    template_path = os.path.join(script_dir, 'lmb_template.png')
-    
+    template_path = resource_path('lmb_template.png')
     print(f"Looking for template at: {template_path}")
     
     template = cv2.imread(template_path, cv2.IMREAD_UNCHANGED)
     
     if template is None:
-        raise FileNotFoundError("Template file could not be loaded. Check file path, name, and integrity.")
+        raise FileNotFoundError("Template file could not be loaded.")
         
     w, h = template.shape[1], template.shape[0]
 
 except Exception as e:
     print(f"Error loading template: {e}")
-    print("\nMake sure 'lmb_template.png' is in the same folder as the script.")
+
+    input("Press Enter to exit...") 
     exit()
 
 threshold = 0.8
