@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://via.placeholder.com/1280x640.png?text=Your+Project+Banner" alt="Project Banner">
+  <img src="https://via.placeholder.com/1280x400.png?text=Raft+Auto-Fishing+Bot" alt="Raft Auto-Fishing Bot Banner">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/username/repo?style=for-the-badge&logo=github&color=C9CBFF&logoColor=white&labelColor=171721">
-  <img src="https://img.shields.io/github/license/username/repo?style=for-the-badge&color=C9CBFF&logoColor=white&labelColor=171721">
-  <img src="https://img.shields.io/github/last-commit/username/repo?style=for-the-badge&logo=github&color=C9CBFF&logoColor=white&labelColor=171721">
+  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/Raft-Auto_Fishing-V.1?style=for-the-badge&logo=github&color=C9CBFF&logoColor=white&labelColor=171721">
+  <img src="https://img.shields.io/github/license/YOUR_USERNAME/Raft-Auto_Fishing-V.1?style=for-the-badge&color=C9CBFF&logoColor=white&labelColor=171721">
+  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/Raft-Auto_Fishing-V.1?style=for-the-badge&logo=github&color=C9CBFF&logoColor=white&labelColor=171721">
 </p>
 
-<h1 align="center">NAMA PROYEK ANDA</h1>
+<h1 align="center">Raft Auto-Fishing Bot</h1>
 
 <p align="center">
-  Satu kalimat singkat dan menarik yang menjelaskan fungsi utama proyek Anda.
+  An automated Python bot that handles fishing in Raft, letting you focus on survival and exploration.
 </p>
 
 <p align="center">
@@ -24,74 +24,93 @@
 
 ---
 
-![Project Demo GIF](https://via.placeholder.com/800x450.gif?text=Your+Project+Demo)
+![Raft Auto-Fishing Bot Demo](https://via.placeholder.com/800x450.gif?text=Fishing+Bot+in+Action!)
 
 ## 📖 About The Project
 
-Jelaskan secara singkat latar belakang proyek Anda. Masalah apa yang coba Anda selesaikan? Apa yang membuat proyek Anda spesial dibandingkan yang lain?
+This project was created to automate the repetitive task of fishing in the game *Raft*. By using computer vision to detect the on-screen prompt, this bot allows players to gather a steady supply of food and resources passively. This frees up valuable time for players to manage their raft, explore islands, and advance through the game's story without the constant need to monitor their fishing rod.
 
 ---
 
 ## ✨ Features
 
-* **Real-time Processing:** Mampu memproses data secara langsung tanpa penundaan.
-* **Intuitive UI/UX:** Antarmuka yang bersih, modern, dan mudah digunakan.
-* **Fully Responsive:** Tampilan yang optimal di semua perangkat, dari mobile hingga desktop.
-* **Secure Authentication:** Sistem otentikasi yang aman untuk melindungi data pengguna.
+* **Automatic Prompt Detection:** Uses OpenCV to accurately detect the "LMB" fish-bite icon on the screen.
+* **Automated Reeling:** Simulates mouse clicks to automatically reel in the fish as soon as it's hooked.
+* **Background Operation:** Runs quietly in the background with minimal performance impact.
+* **User-Friendly:** Available as a simple, standalone `.exe` file that requires no installation. Just run and play.
+* **Customizable:** Key parameters like screen region and detection threshold can be easily adjusted in the source code.
 
 ---
 
 ## 🚀 Getting Started
 
-Ikuti petunjuk ini untuk mendapatkan salinan proyek dan menjalankannya di komputer lokal Anda untuk tujuan pengembangan dan pengujian.
+You can use this bot either as a simple executable file or by running the source code directly.
 
-### Prerequisites
+### For Users (Recommended)
 
-Pastikan Anda telah menginstal semua perangkat lunak yang diperlukan.
-* Node.js (v18.x or later)
-* NPM atau Yarn
+The easiest way to use the bot is to download the pre-compiled executable.
 
-### Installation
+1.  Go to the [**Releases**](https://github.com/YOUR_USERNAME/Raft-Auto_Fishing-V.1/releases) page of this repository.
+2.  Download the latest `.exe` file (e.g., `auto_fishing.exe`).
+3.  Run the `.exe` file while *Raft* is running. The bot will start automatically.
+4.  To stop the bot, close the command prompt window or end the process in Task Manager.
 
-1.  Clone repositori ini ke mesin lokal Anda.
+### For Developers (Running from Source)
+
+If you want to run or modify the source code, follow these steps.
+
+**Prerequisites**
+* Python 3.8+
+* Pip
+
+**Installation**
+1.  Clone the repository to your local machine.
     ```sh
-    git clone [https://github.com/username/repo.git](https://github.com/username/repo.git)
+    git clone [https://github.com/YOUR_USERNAME/Raft-Auto_Fishing-V.1.git](https://github.com/YOUR_USERNAME/Raft-Auto_Fishing-V.1.git)
     ```
-2.  Masuk ke direktori proyek.
+2.  Navigate to the project directory.
     ```sh
-    cd repo
+    cd Raft-Auto_Fishing-V.1
     ```
-3.  Install semua dependency yang dibutuhkan.
+3.  Install the required Python libraries.
     ```sh
-    npm install
+    pip install opencv-python pyautogui mss numpy
     ```
-4.  Jalankan aplikasi.
+4.  Run the script.
     ```sh
-    npm run dev
+    python auto_fishing.py
     ```
 
 ---
 
 ## 🛠️ Built With
 
-* [![Vite][Vite.js]][Vite-url]
-* [![React][React.js]][React-url]
-* [![TailwindCSS][TailwindCSS.com]][TailwindCSS-url]
+This project was made possible by these amazing libraries:
+
+* [![Python][Python.org]][Python-url]
+* [![OpenCV][OpenCV.org]][OpenCV-url]
+* [![PyAutoGUI][PyAutoGUI.com]][PyAutoGUI-url]
+* [![MSS][MSS.com]][MSS-url]
+* [![NumPy][NumPy.org]][NumPy-url]
 
 ---
 
 ## 📄 License
 
-Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ---
 <p align="center">
-  Dibuat dengan ❤️ oleh [Nama Anda](link_ke_github_atau_sosmed_anda)
+  Built by <a href="https://github.com/YOUR_USERNAME">Miko Ard</a>
 </p>
 
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vite.js]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
-[Vite-url]: https://vitejs.dev/
-[TailwindCSS.com]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
-[TailwindCSS-url]: https://tailwindcss.com/
+[Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
+[OpenCV.org]: https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white
+[OpenCV-url]: https://opencv.org/
+[PyAutoGUI.com]: https://img.shields.io/badge/PyAutoGUI-3a3a3a?style=for-the-badge
+[PyAutoGUI-url]: https://pyautogui.readthedocs.io/
+[MSS.com]: https://img.shields.io/badge/MSS-4a4a4a?style=for-the-badge
+[MSS-url]: https://python-mss.readthedocs.io/
+[NumPy.org]: https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white
+[NumPy-url]: https://numpy.org/
