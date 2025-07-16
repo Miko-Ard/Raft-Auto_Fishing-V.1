@@ -1,11 +1,9 @@
-<p align="center">
-  <img src="https://via.placeholder.com/1280x400.png?text=Raft+Auto-Fishing+Bot" alt="Raft Auto-Fishing Bot Banner">
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME/Raft-Auto_Fishing-V.1?style=for-the-badge&logo=github&color=C9CBFF&logoColor=white&labelColor=171721">
-  <img src="https://img.shields.io/github/license/YOUR_USERNAME/Raft-Auto_Fishing-V.1?style=for-the-badge&color=C9CBFF&logoColor=white&labelColor=171721">
-  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/Raft-Auto_Fishing-V.1?style=for-the-badge&logo=github&color=C9CBFF&logoColor=white&labelColor=171721">
+
+<p>
+  <img src="https://img.shields.io/badge/DOWNLOADS-31K-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/RELEASE-V1.21.93-007EC6?style=for-the-badge">
+  <img src="https://img.shields.io/badge/LAST%20COMMIT-YESTERDAY-brightgreen?style=for-the-badge">
 </p>
 
 <h1 align="center">Raft Auto-Fishing Bot</h1>
@@ -19,7 +17,7 @@
   <a href="#-features">Features</a> •
   <a href="#-getting-started">Getting Started</a> •
   <a href="#-built-with">Tech Stack</a> •
-  <a href="#-license">License</a>
+
 </p>
 
 ---
@@ -97,8 +95,7 @@ This project was made possible by these amazing libraries:
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
+Distributed under the MIT License.
 ---
 <p align="center">
   Built by <a href="https://github.com/YOUR_USERNAME">Miko Ard</a>
