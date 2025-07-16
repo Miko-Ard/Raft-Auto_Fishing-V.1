@@ -1,10 +1,10 @@
 
 
-<center><p>
+<p align="center">
   <img src="https://img.shields.io/badge/DOWNLOADS-1-brightgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/RELEASE-V1.1-007EC6?style=for-the-badge">
   <img src="https://img.shields.io/badge/LAST%20COMMIT-YESTERDAY-brightgreen?style=for-the-badge">
-</center></p>
+</p>
 
 <h1 align="center">Raft Auto-Fishing Bot</h1>
 
